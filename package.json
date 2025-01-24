@@ -1,0 +1,35 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.0"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.9",
+    "@deck.gl/layers": "^8.9",
+    "@heroicons/react": "^2.2.0",
+    "@hubble.gl/core": "^1.3.0",
+    "@phosphor-icons/web": "^2.1.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/lodash": "^4.17.14",
+    "cup-parser": "^0.2.0",
+    "date-fns": "^4.1.0",
+    "deck.gl": "^8.9",
+    "heroicons": "^2.2.0",
+    "igc-parser": "^2.0.0",
+    "lodash": "^4.17.21",
+    "solid-js": "^1.9.3",
+    "tailwindcss": "^4.0.0"
+  }
+}

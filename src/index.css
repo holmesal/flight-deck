@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.timelineSlider {
+  -webkit-appearance: none;
+  outline: none;
+
+  &::-webkit-slider-runnable-track {
+    @apply h-full;
+  }
+  &::-webkit-slider-thumb {
+    // -webkit-appearance: none;
+    @apply h-full bg-amber-400 appearance-none w-0.5 rounded-none hover:cursor-grab;
+  }
+  &:-moz-range-track {
+    background: tomato;
+    @apply h-full;
+  }
+}
